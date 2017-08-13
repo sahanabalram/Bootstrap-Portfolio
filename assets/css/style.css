@@ -60,10 +60,10 @@ a {
 #about-me-image {
     width: 150px;
     height: 150px;
-    display: block;
+    /* display: block; */
 }
 p {
-    display: block;
+    /* display: inline; */
 }
 /*css for the social icons in connect with me section  */
 .social-icons {
