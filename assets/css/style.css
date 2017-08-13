@@ -106,3 +106,26 @@ p {
     background-color: #4aaaa5;
     color: #fff;
 } */
+
+.pic-float {
+    float: left;
+    width: 180px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.pd {
+    height:70px;
+}
+
+.lpd {
+    padding-top: 10px;
+}
+
+.floating-box {
+    float: left;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+    border: 3px solid #73AD21;  
+}
