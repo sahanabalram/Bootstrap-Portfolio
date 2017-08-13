@@ -1,4 +1,6 @@
-
+/* div.wrapper {
+    width: 960px;
+} */
 
 body {
     background-color: #ffffff;
@@ -71,4 +73,21 @@ p {
     height: 75px;
     align-content: center;
     /* padding:  10px 20px 10px 20px; */
+}
+
+/*css for  form-group in contact section  */
+
+.form-group {
+    width: 95%;
+    padding-left: 40px;
+}
+
+/*css for submit button  */
+
+.btn-default {
+    
+    background-color: teal;
+    border-color: #ccc;
+    color: white;
+    margin-top: 15px;
 }
