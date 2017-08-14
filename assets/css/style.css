@@ -2,13 +2,18 @@
     width: 960px;
 } */
 
+html,
 body {
     background-color: #ffffff;
     font-family: "Georgia, Times, Times New Roman, serif";
     background-image: url("../images/background.png");
     display: block;
     margin: 0 auto;
+    height: 100%;
 }
+
+
+/*navbar css  */
 
 .navbar-header,
 .navbar-brand,
@@ -17,9 +22,11 @@ a {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 20px;
 }
+
 .navbar-default .navbar-brand {
     color: white;
 }
+
 .navbar-header {
     background-color: #4aaaa5;
     color: white;
@@ -28,52 +35,72 @@ a {
     font-size: 32px;
 }
 
+
+/*End navbar css  */
+
+
+/*css for the image in about me section  */
+
+#about-me-image {
+    width: 150px;
+    height: 150px;
+}
+
+
+/*
+/*footer css  */
+
 .pull {
     clear: both;
     height: 100px;
     padding-top: 50px;
 }
 
-.footer {
-    position: absolute;
-    bottom: 0;
+footer.footer {
+/*    position: absolute;
+     bottom: 0;
+    margin: 0 auto; */
     width: 100%;
     /* Set the fixed height of the footer here */
-    height: 100px;
+    height: 50px;
     background-color: #666666;
     text-align: center;
     border-top: solid #4aaaa5;
-    padding: 20px;
+    padding: 15px;
 }
 
 #copyright {
     line-height: 50px;
-    vertical-align: middle;
+    vertical-align: middle;    text-align: center;
+
     color: #fff;
 }
-
 
 .justify {
     text-align: justify;
     padding: 0px 10px 0px 0px;
 }
 
-/*css for the image in about me section  */
-#about-me-image {
-    width: 150px;
-    height: 150px;
-    /* display: block; */
+.panel-default>.panel-heading {
+    color: teal;
+    background-color: white;
+    border-color: #ddd;
 }
+
 p {
     /* display: inline; */
 }
+
+
 /*css for the social icons in connect with me section  */
+
 .social-icons {
     width: 75px;
     height: 75px;
     align-content: center;
     /* padding:  10px 20px 10px 20px; */
 }
+
 
 /*css for  form-group in contact section  */
 
@@ -82,30 +109,41 @@ p {
     padding-left: 40px;
 }
 
+
 /*css for submit button  */
 
 .btn-default {
-    
     background-color: teal;
     border-color: #ccc;
     color: white;
     margin-top: 15px;
 }
 
+
 /*Portfolio section  */
 
-/* .title {
-    position: absolute;
-    left: 0px;
-    top: 135px;
-    height:34px;
-    text-align: center;
-    padding: 13px;
+.carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 30px;
+}
+
+.thumbnail .caption {
+    padding: 5px;
+    color: white;
+    background-color: teal;
     font-size: 24px;
-    font-weight: bold;
-    background-color: #4aaaa5;
-    color: #fff;
-} */
+}
+
+.h2,
+h2 {
+    font-size: 24px;
+}
+
+img#portfolio-image {
+    width: 350px;
+    position: relative;
+}
 
 .pic-float {
     float: left;
@@ -115,17 +153,18 @@ p {
 }
 
 .pd {
-    height:70px;
+    height: 70px;
 }
 
 .lpd {
     padding-top: 10px;
 }
 
-.floating-box {
+
+/* .floating-box {
     float: left;
     width: 150px;
     height: 75px;
     margin: 10px;
     border: 3px solid #73AD21;  
-}
+} */
