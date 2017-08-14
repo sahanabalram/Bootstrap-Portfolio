@@ -67,12 +67,13 @@ footer.footer {
     text-align: center;
     border-top: solid #4aaaa5;
     padding: 15px;
+    color: white;
 }
 
 #copyright {
     line-height: 50px;
-    vertical-align: middle;    text-align: center;
-
+    vertical-align: middle;    
+    text-align: center;
     color: #fff;
 }
 
@@ -87,9 +88,7 @@ footer.footer {
     border-color: #ddd;
 }
 
-p {
-    /* display: inline; */
-}
+
 
 
 /*css for the social icons in connect with me section  */
@@ -160,11 +159,9 @@ img#portfolio-image {
     padding-top: 10px;
 }
 
-
-/* .floating-box {
-    float: left;
-    width: 150px;
-    height: 75px;
-    margin: 10px;
-    border: 3px solid #73AD21;  
-} */
+@media screen and (max-width: 992px) {
+    .move-right {
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+}
